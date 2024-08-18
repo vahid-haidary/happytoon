@@ -225,7 +225,7 @@ ul {
 }
 .navbar .navbar-brand {
     font-family: 'iran';
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff;
     font-weight: 500;
     text-transform: capitalize;
@@ -264,10 +264,12 @@ ul {
     padding: 150px 0;
     background-color: var(--main-to-dark-color);
     border-radius: 0 0 0 200px;
+    box-shadow: var(--shodow-black-100);
     position: relative;
     z-index: 1;
     overflow-x: hidden;
 }
+
 .home-img img {
     max-width: 250px;
     width: 100%;
@@ -411,6 +413,9 @@ ul {
     margin: 15px;
     padding: 30px;
     text-align: center;
+    border-radius: 42px;
+    box-shadow: var(--shodow-black-100);
+
 }
 .features .features-item:hover {
     background: #ee476f      ;
@@ -1175,6 +1180,14 @@ ul {
 }
 
 /*==================responcive=====================*/
+@media(max-width:1024px){
+    .fun-facts-img #baner2{
+        display: none;
+    }
+    .testimonials-item{
+        height: 420px;
+    }
+}
 @media(max-width: 987px){
     .home-text h1{
         font-size: 21px;
@@ -1203,7 +1216,7 @@ ul {
         font-size: 17px;
         color: #ffffff;
     }
-    .navbar-nav {
+     .navbar-nav {
         background-color: var(--dark-to-main-color);
         box-shadow: var(--shodow-black-300);
     }
@@ -1250,6 +1263,9 @@ ul {
     }
 }
 @media(max-width: 767px) {
+    .home{
+        min-height: 130vh;
+    }
     .home-text {
         margin-bottom: 80px;
     }
@@ -1265,8 +1281,21 @@ ul {
     .footer-col {
         margin-bottom: 30px;
     }
+    .footer-col p{
+        text-align: justify;
+    }
     .fun-facts-img #baner2{
         display: none;
+    }
+    /* .container{
+        display: grid;
+    } */
+    .col-md-5{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .col-md-7{
+        order: 2;
     }
 }
 @media(max-width: 539px) {
