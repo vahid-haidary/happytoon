@@ -268,6 +268,7 @@ ul {
     position: relative;
     z-index: 1;
     overflow-x: hidden;
+    background: #ffff;
 }
 
 .home-img img {
@@ -1337,7 +1338,7 @@ ul {
     .work__item {
         padding: 0.10rem 0.10rem;
       }
-}
+ }
 @media(max-width:316px){
     .features .features-item{
         height: 350px ;
