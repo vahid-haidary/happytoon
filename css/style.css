@@ -1310,6 +1310,7 @@ ul {
     }
     .features .features-item{
         height: 300px;
+        width: fit-content;
     }
 }
 @media(max-width: 453px) {
@@ -1320,9 +1321,6 @@ ul {
 @media(max-width: 380px) {
     .home-text p{
         font-size: 12px;
-    }
-    .features .features-item{
-        width: fit-content; ;
     }
 }
 @media(max-width: 470px) {
