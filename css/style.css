@@ -268,7 +268,6 @@ ul {
     position: relative;
     z-index: 1;
     overflow-x: hidden;
-    background: #ffff;
 }
 
 .home-img img {
@@ -1321,6 +1320,9 @@ ul {
 @media(max-width: 380px) {
     .home-text p{
         font-size: 12px;
+    }
+    .features .features-item{
+        width: fit-content; ;
     }
 }
 @media(max-width: 470px) {
