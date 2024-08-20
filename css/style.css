@@ -1297,9 +1297,9 @@ ul {
     .fun-facts-img #baner2{
         display: none;
     }
-    /* .container{
+    .container{
         display: grid;
-    } */
+    }
     .col-md-5{
         order: 1;
         margin-bottom: 20px;
@@ -1314,7 +1314,6 @@ ul {
     }
     .features .features-item{
         height: 300px;
-        min-width: 80%;
     }
 }
 @media(max-width: 453px) {
