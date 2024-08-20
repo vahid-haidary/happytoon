@@ -1314,7 +1314,7 @@ ul {
     }
     .features .features-item{
         height: 300px;
-        width: 90vw;
+        min-width: 100%;
     }
 }
 @media(max-width: 453px) {
