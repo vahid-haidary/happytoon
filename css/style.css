@@ -415,10 +415,9 @@ ul {
     text-align: center;
     border-radius: 42px;
     box-shadow: var(--shodow-black-100);
-    height: 347px;
 }
 .features .features-item:hover {
-    background: #ee476f      ;
+    background: #ee476f;
     color: #ffffff;
     border-radius: 42px;
 }
@@ -1193,6 +1192,11 @@ ul {
         height: 420px;
     }
 }
+@media(min-width:1400px){
+    .features .features-item{
+        height: 347px;
+    }
+}
 
 @media(max-width: 987px){
     .home-text h1{
@@ -1310,7 +1314,7 @@ ul {
     }
     .features .features-item{
         height: 300px;
-        width: fit-content;
+        width: 90vw;
     }
 }
 @media(max-width: 453px) {
