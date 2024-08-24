@@ -36,21 +36,32 @@ $(document).ready(function(){
         autoplayTimeOut: 500,
         autoplayHoverPause: true,
         responsive: {
-            0:{
+            0: {
                 items: 1,
                 nav: true
             },
-            600:{
+            500: {
                 items: 2,
                 nav: true
             },
-            1000:{
+            600: {
+                items: 1,
+                nav: true
+            },
+            950: {
+                items: 2,
+                nav: true
+            },
+            1024: { // برای تبلت‌های بزرگ
+                items: 3,
+                nav: true
+            },
+            1000: {
                 items: 3,
                 nav: true
             },
         }
     });
-
     $('.screen-carousel').owlCarousel({
         margin: 5,
         rtl: true,
@@ -63,6 +74,7 @@ $(document).ready(function(){
                 items: 1,
                 nav: true
             },
+        
             600:{
                 items: 2,
                 nav: true
@@ -78,7 +90,7 @@ $(document).ready(function(){
         margin: 5,
         rtl: true,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeOut: 500,
         autoplayHoverPause: true,
         responsive: {
